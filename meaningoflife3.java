@@ -24,16 +24,7 @@ public class meaningoflife3 {
 		}
 		catch (IOException e){
 			e.printStackTrace();
-		}
-		//BufferedReader read = new BufferedReader(new FileReader("/Users/Menocal/Google Drive/LSU/Fall 2014/CSC 2700/prob1/src/prob1/test.txt"));
-		/*String num;
-		boolean stop = true;
-		while ((num = read.readLine()) != null){
-			if ( num.equals("42"))
-				break;
-			else
-				System.out.println(num);*/
-			
+			}	
 		}
 		
 		
