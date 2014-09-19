@@ -1,20 +1,22 @@
-package prob1;
+
+import java.io.*;
 import java.util.*;
 
 public class meaningoflife2 {
 
 	
-	public static void main(String[] args){
+	public static void main(String[] args) throws IOException{
 		
-		Scanner scan = new Scanner(System.in);
-		String n;
-		boolean stop = true;
-		while(stop)
+		Scanner read = new Scanner(System.in);
+		int n;
+		//boolean stop = true;
+		while(true)
 		{
-			n = scan.nextLine();
-			if (n == "42")
-				stop = false;
-			System.out.println(n);
+			n = read.nextInt();
+			if (n == 42)
+				break;//stop = false;
+			else
+				System.out.println(n);
 		}	
 	}
 }

@@ -1,6 +1,5 @@
 import java.io.*;
 
-
 public class meaningoflife3 {
 
 	public static void main(String[] args) throws IOException {
